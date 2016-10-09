@@ -1,6 +1,6 @@
 var http = require('http');
 
-var port = 8080;
+var port = process.env.PORT || 3000;
 
 var obj = {};
 
